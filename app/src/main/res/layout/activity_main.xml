@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_red"
+        android:layout_width="199dp"
+        android:layout_height="59dp"
+        android:text="Red"
+        android:textSize="24sp"
+        app:backgroundTint="#9C0707"
+        app:iconTint="#101010"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114"
+        app:strokeColor="#100F0F"
+        app:strokeWidth="3dp" />
+
+    <Button
+        android:id="@+id/btn_blue"
+        android:layout_width="199dp"
+        android:layout_height="59dp"
+        android:text="Blue"
+        android:textSize="24sp"
+        app:backgroundTint="#07279C"
+        app:iconTint="#101010"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.23"
+        app:strokeColor="#100F0F"
+        app:strokeWidth="3dp" />
+
+    <Button
+        android:id="@+id/btn_green"
+        android:layout_width="199dp"
+        android:layout_height="59dp"
+        android:text="Green"
+        android:textSize="24sp"
+        app:backgroundTint="#0F6300"
+        app:iconTint="#101010"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.346"
+        app:strokeColor="#100F0F"
+        app:strokeWidth="3dp" />
+
+    <Button
+        android:id="@+id/btn_violet"
+        android:layout_width="199dp"
+        android:layout_height="59dp"
+        android:text="Violet"
+        android:textSize="24sp"
+        app:backgroundTint="#4908BD"
+        app:iconTint="#101010"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.474"
+        app:strokeColor="#100F0F"
+        app:strokeWidth="3dp" />
+
+    <Button
+        android:id="@+id/btn_yellow"
+        android:layout_width="199dp"
+        android:layout_height="59dp"
+        android:text="Yellow"
+        android:textSize="24sp"
+        app:backgroundTint="#A59405"
+        app:iconTint="#101010"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61"
+        app:strokeColor="#100F0F"
+        app:strokeWidth="3dp" />
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="138dp"
+        android:layout_height="49dp"
+        android:text="Reset"
+        android:textColor="#151414"
+        android:textSize="24sp"
+        app:backgroundTint="#F3ECEC"
+        app:iconTint="#101010"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.787"
+        app:strokeColor="#100F0F"
+        app:strokeWidth="3dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
